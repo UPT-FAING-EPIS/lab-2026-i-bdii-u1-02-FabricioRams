@@ -206,4 +206,18 @@ docker-compose up -d
 ---
 ## Actividades Encargadas
 1. Escribir el código necesrio para completar los controladores para las clases Cliente y ClientesDocumento.
+# Evidencias del Laboratorio N° 02
+**Estudiante:** Fabricio Ramos Atahuachi
+
+## Actividades Encargadas
+Para completar los controladores solicitados, se utilizaron los siguientes comandos de scaffolding:
+
+1. **Controlador Clientes:**
+   `dotnet aspnet-codegenerator controller -name ClientesController -async -api -m Cliente -dc BdClientesContext -outDir Controllers`
+
+2. **Controlador ClientesDocumento:**
+   `dotnet aspnet-codegenerator controller -name ClientesDocumentosController -async -api -m ClientesDocumento -dc BdClientesContext -outDir Controllers`
+
+## Captura de Pantalla
+<img width="1920" height="1000" alt="image" src="https://github.com/user-attachments/assets/929417ea-33c6-40fa-8fe4-62ded2c0b3c8" />
 
