@@ -221,3 +221,6 @@ Para completar los controladores solicitados, se utilizaron los siguientes coman
 ## Captura de Pantalla
 <img width="1920" height="1000" alt="image" src="https://github.com/user-attachments/assets/929417ea-33c6-40fa-8fe4-62ded2c0b3c8" />
 
+## Problema Con el autograding
+El comando de Docker en el Autograding tiene letras mayúsculas y Docker en Linux solo acepta minúsculas
+
